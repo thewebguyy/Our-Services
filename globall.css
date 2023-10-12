@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-futura: Futura;
+  --font-cormorant-garamond: "Cormorant Garamond";
+  --text-md-medium: Inter;
+
+  /* font sizes */
+  --text-md-medium-size: 1rem;
+  --font-size-lg: 1.13rem;
+  --font-size-xl: 1.25rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-37xl: 3.5rem;
+  --font-size-13xl: 2rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-55xl: 4.63rem;
+
+  /* Colors */
+  --base-white: #fff;
+  --gray-400: #98a2b3;
+  --color-whitesmoke-100: #f9fafb;
+  --gray-200: #eaecf0;
+  --gray-500: #667085;
+  --gray-900: #101828;
+  --color-darkslategray: #373737;
+  --color-gray1: #191919;
+  --color-goldenrod: #ffca49;
+  --primary-600: #7f56d9;
+  --primary-700: #6941c6;
+
+  /* Gaps */
+  --gap-45xl: 4rem;
+  --gap-13xl: 2rem;
+  --gap-xl: 1.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-5xl: 1.5rem;
+  --gap-21xl: 2.5rem;
+  --gap-lg: 1.13rem;
+  --gap-xs: 0.75rem;
+
+  /* Paddings */
+  --padding-45xl: 4rem;
+  --padding-29xl: 3rem;
+  --padding-13xl: 2rem;
+  --padding-61xl: 5rem;
+  --padding-77xl: 6rem;
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-9xs: 0.25rem;
+
+  /* Border radiuses */
+  --br-9xl: 28px;
+
+  /* Effects */
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}

@@ -1,25 +1,20 @@
-/* For mobile devices */
-@media only screen and (max-width: 480px) {
+/* For screens with a width of 1440px or more */
+@media only screen and (min-width: 1440px) {
   /* CSS rules */
 }
 
-/* For iPads, Tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+/* For screens with a width of 1200px or more, but less than 1440px */
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
   /* CSS rules */
 }
 
-/* For small screens, laptops */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* For screens with a width of 960px or more, but less than 1200px */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   /* CSS rules */
 }
 
-/* For desktops, large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  /* CSS rules */
-}
-
-/* For extra large screens, TV */
-@media only screen and (min-width: 1201px) {
+/* For screens with a width of 420px or more, but less than 960px */
+@media only screen and (min-width: 420px) and (max-width: 959px) {
   /* CSS rules */
 }
 

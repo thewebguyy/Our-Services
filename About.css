@@ -113,7 +113,7 @@
   gap: var(--gap-21xl);
 }
 .container {
-  overflow: hidden;
+  overflow: auto;
   flex-direction: row;
   justify-content: center;
   padding: 1.5rem 0 var(--padding-29xl);
@@ -213,6 +213,13 @@
   color: var(--primary-600);
   font-family: var(--text-md-semibold);
 }
+
+@media only screen and (max-width: 959px) {
+  .header-section {
+    font-size: var(--text-sm-semibold-size);
+  }
+}
+
 .line-pattern-icon {
   top: calc(50% - 678px);
   width: 165.69rem;
@@ -255,12 +262,17 @@
 }
 .whatsapp-image-2023-09-08-at-4 {
   position: absolute;
-  top: calc(50% - 480px);
-  left: calc(50% - 280px);
-  width: 35rem;
-  height: 60rem;
+  top: 50%; /* Vertically centered */
+  left: 50%; /* Horizontally centered */
+  transform: translate(-50%, -50%); /* Centering trick */
+
+  width: 70%; /* Use a percentage for responsiveness */
+  max-width: 35rem; /* Set a maximum width to avoid excessive expansion */
+  height: auto; /* Maintain aspect ratio */
+
   object-fit: cover;
 }
+
 .content2 {
   flex: 1;
   position: relative;

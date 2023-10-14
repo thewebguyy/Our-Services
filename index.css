@@ -259,7 +259,7 @@
 }
 .tab-line-icon1 {
   max-width: 100%;
-  overflow: hidden;
+  overflow: auto;
   height: 0.25rem;
   flex-shrink: 0;
 }

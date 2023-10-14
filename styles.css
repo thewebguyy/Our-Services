@@ -496,13 +496,16 @@ img.contact-image {
 }
 
 @media only screen and (max-width: 880px) {
-  main {
-    border: 5px solid red;
-  }
-
   .box {
     grid-template-columns: 1fr;
     row-gap: 9.6rem;
+  }
+
+  .reverse .content-box:nth-child(1) {
+    order: 2;
+  }
+  .reverse .content-box:nth-child(2) {
+    order: 1;
   }
 
   .content-box {
@@ -511,5 +514,120 @@ img.contact-image {
 
   .service-list {
     flex-direction: column;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .top-nav li a {
+    font-size: 1.6rem;
+  }
+
+  .tagline {
+    font-size: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 9.6rem;
+  }
+
+  .quote {
+    font-size: 2.8rem;
+  }
+
+  .content h2 {
+    font-size: 5.2rem;
+  }
+
+  .number {
+    font-size: 2.8rem;
+    margin: 0 auto;
+    margin-bottom: 1.8rem;
+  }
+
+  .content-box h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .content-box p {
+    font-size: 2.4rem;
+  }
+
+  .content h3 {
+    font-size: 3.6rem;
+  }
+
+  .features h2 {
+    font-size: 5.2rem;
+  }
+
+  .features p {
+    font-size: 2.4rem;
+  }
+
+  .features a {
+    font-size: 1.6rem;
+  }
+
+  .services h2 {
+    font-size: 5.2rem;
+  }
+
+  .services p {
+    font-size: 2.4rem;
+  }
+
+  .service h4 {
+    font-size: 2.8rem;
+  }
+
+  .service p {
+    font-size: 2rem;
+  }
+
+  .find-us h2 {
+    font-size: 5.2rem;
+  }
+
+  .find-us h4 {
+    font-size: 2.8rem;
+  }
+
+  .find-us a {
+    font-size: 1.6rem;
+  }
+
+  .contacts h2 {
+    font-size: 5.2rem;
+  }
+
+  .contacts-message {
+    font-size: 2.4rem;
+  }
+
+  .contact-method {
+    font-size: 2rem;
+  }
+
+  .contact-message {
+    font-size: 1.4rem;
+  }
+
+  .contact-link {
+    font-size: 1.6rem;
+  }
+
+  .bottom-nav li a {
+    font-size: 1.4rem;
+  }
+
+  .bottom-footer p {
+    font-size: 1.2rem;
+  }
+
+  .bottom-footer ul li a {
+    font-size: 1.2rem;
   }
 }

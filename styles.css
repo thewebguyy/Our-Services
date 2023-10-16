@@ -32,6 +32,7 @@ header {
       rgba(0, 0, 0, 0.4) 100%
     ),
     url(./images/HeroBG.png), lightgray 50% / cover no-repeat;
+  padding-top: 2.4rem;
 }
 
 .header-container,
@@ -40,7 +41,8 @@ header {
 .services,
 .find-us,
 .contacts,
-.footer-content {
+.footer-content,
+.about-us {
   width: 80%;
   margin: 0 auto;
 }
@@ -493,6 +495,279 @@ img.contact-image {
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-decoration: none;
+  color: #98a2b3;
+}
+
+/***** Why La Vetia ******/
+
+.why-header {
+  background: rgba(0, 0, 0, 1);
+}
+
+.why-hero h1 {
+  font-size: 7.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7.2rem;
+  max-width: 120rem;
+  margin-bottom: 2.4rem;
+}
+
+.underline {
+  border-bottom: 3px solid #ffca49;
+}
+
+.why-quote {
+  color: #eaecf0;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.032rem;
+  padding-bottom: 6.4rem;
+}
+
+.why-hero img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 9.6rem;
+}
+
+.why-main-content {
+  background-color: #fff;
+  padding-top: 7.9rem;
+}
+
+.why-number {
+  color: #191919;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  width: 5.6rem;
+  padding: 0.7rem 0rem 1.3rem 0rem;
+  border-radius: 2.8rem;
+}
+
+.why-content-box {
+  align-self: unset;
+}
+
+.why-content-box h3 {
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+  color: #191919;
+  font-weight: 700;
+  align-self: unset;
+}
+
+.why-content-box p {
+  color: #373737;
+  line-height: 3.36rem;
+  letter-spacing: 0.028rem;
+}
+
+h3.why {
+  color: #000;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4.16rem;
+  max-width: 107rem;
+  letter-spacing: 0.032rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/***** About Us ********/
+
+.about-header {
+  background: #f9fafb;
+  padding-bottom: 9.6rem;
+}
+
+.about-top-hero p,
+.about-top-nav li a {
+  color: #191919;
+}
+
+ul.top-nav.about-top-nav {
+  margin-bottom: 14.4rem;
+}
+
+.about-hero {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 3.2rem;
+}
+
+.about-hero h5 {
+  color: #101828;
+  font-size: 5.4rem;
+  font-weight: 600;
+  line-height: 5.94rem;
+  letter-spacing: -0.108rem;
+}
+
+.about-hero p {
+  color: #191919;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.12rem;
+}
+
+.about-content {
+  background: rgba(0, 0, 0);
+  padding-top: 8.3rem;
+  padding-bottom: 8.3rem;
+}
+
+.about-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+}
+
+.about-us h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 6.16rem;
+  letter-spacing: 0.056rem;
+  margin: 0 auto;
+  max-width: 91.1rem;
+  margin-bottom: 8rem;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  box-shadow: 6px 5px 14.5px 0px rgba(255, 202, 73, 0.5);
+}
+
+.details {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.028rem;
+}
+
+.name {
+  font-family: Sassy Frass;
+  font-size: 8.8rem;
+  font-weight: 400;
+  line-height: 10.56rem;
+  letter-spacing: 0.088rem;
+}
+
+.position {
+  opacity: 0.89;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.028rem;
+}
+
+.journey h3 {
+  color: #101828;
+  font-size: 5.6rem;
+  font-weight: 600;
+  line-height: 4.4rem;
+  letter-spacing: -0.056rem;
+  margin-bottom: 3.6rem;
+  text-align: left;
+  margin-left: unset;
+}
+
+.journey p {
+  color: #373737;
+  font-family: Cormorant Garamond;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 6.4rem;
+}
+
+.process,
+h3.process {
+  text-align: right;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.about li img {
+  width: 100%;
+  height: auto;
+}
+
+/***** Our Services *******/
+
+.service-hero h5 {
+  color: #101828;
+  text-align: center;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.4rem;
+  letter-spacing: -0.056rem;
+  margin-bottom: 4.4rem;
+}
+
+.service-hero-text {
+  color: #191919;
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 3.64rem;
+  letter-spacing: 0.028rem;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.service-box {
+  max-width: 77.4rem;
+  height: 42.7rem;
+  flex-shrink: 0;
+  border-radius: 1.6rem;
+  background: #ffca49;
+  box-shadow: 0px 24px 40px -13px rgba(16, 24, 40, 0.18);
+  margin: 0 auto;
+  margin-bottom: 6.36rem;
+}
+
+.service-line {
+  height: 0.4rem;
+  background-color: #ffca49;
+  margin-bottom: 2.4rem;
+}
+
+.service-header {
+  color: #191919;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4rem;
+  margin-bottom: 1.6rem;
+}
+
+.service-text {
+  color: #373737;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 3.12rem;
+  letter-spacing: 0.024rem;
+  margin-bottom: 8rem;
+}
+
+.cancel-margin {
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 880px) {
@@ -629,5 +904,85 @@ img.contact-image {
 
   .bottom-footer ul li a {
     font-size: 1.2rem;
+  }
+
+  .about,
+  .about-hero,
+  .about-box {
+    grid-template-columns: 1fr;
+  }
+
+  /***** Why La Vetia ******/
+
+  .why-hero h1 {
+    font-size: 7rem;
+  }
+
+  .why-quote {
+    font-size: 2.4rem;
+  }
+
+  .why-number {
+    font-size: 3.2rem;
+  }
+
+  .why-content-box h3 {
+    font-size: 3.2rem;
+  }
+
+  h3.why {
+    font-size: 3.2rem;
+  }
+
+  /***** About Us ********/
+
+  .about-hero h5 {
+    font-size: 5rem;
+  }
+
+  .about-hero p {
+    font-size: 2rem;
+  }
+
+  .about-us h3 {
+    font-size: 5.2rem;
+  }
+
+  .details {
+    font-size: 2.4rem;
+  }
+
+  .name {
+    font-size: 8.4rem;
+  }
+
+  .position {
+    font-size: 2.4rem;
+  }
+
+  .journey h3 {
+    font-size: 5.2rem;
+  }
+
+  .journey p {
+    font-size: 2.4rem;
+  }
+
+  /***** Our Services *******/
+
+  .service-hero h5 {
+    font-size: 5.2rem;
+  }
+
+  .service-hero-text {
+    font-size: 2.4rem;
+  }
+
+  .service-header {
+    font-size: 3.6rem;
+  }
+
+  .service-text {
+    font-size: 2rem;
   }
 }

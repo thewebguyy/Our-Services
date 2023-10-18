@@ -48,16 +48,18 @@ header {
 }
 
 .top-hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: end;
   font-family: futura;
   margin-bottom: 4rem;
+  margin-top: -5rem;
 }
 
 .top-icon {
   width: 20.2062rem;
   height: 10rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 p {
@@ -110,6 +112,9 @@ p {
 }
 
 .main-content {
+  background: url(./images/index-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: black;
   padding-bottom: 10.1rem;
 }
@@ -302,8 +307,11 @@ span a {
 }
 
 .find-us-content {
-  background: black;
   padding-bottom: 7.35rem;
+  background: url(./images/why-pattern-2.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .find-us h2 {
@@ -534,6 +542,9 @@ img.contact-image {
 .why-main-content {
   background-color: #fff;
   padding-top: 7.9rem;
+  background: url(./images/pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .why-number {
@@ -614,12 +625,21 @@ ul.top-nav.about-top-nav {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 3.12rem;
+  letter-spacing: 0.028rem;
+  font-style: normal;
 }
 
 .about-content {
-  background: rgba(0, 0, 0);
+  background: url(./images/about-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0);
   padding-top: 8.3rem;
   padding-bottom: 8.3rem;
+}
+
+.remove-background {
+  background: unset;
 }
 
 .about-box {
@@ -984,5 +1004,12 @@ h3.process {
 
   .service-text {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .top-hero {
+    margin-top: 2.5rem;
+    text-align: center;
   }
 }

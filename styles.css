@@ -512,6 +512,11 @@ img.contact-image {
   background: rgba(0, 0, 0, 1);
 }
 
+.why-hero h1 .underline {
+  color: #ffca49;
+  text-decoration: none;
+}
+
 .why-hero h1 {
   font-size: 7.4rem;
   font-style: normal;
@@ -524,6 +529,7 @@ img.contact-image {
 .underline {
   border-bottom: 3px solid #ffca49;
 }
+
 
 .why-quote {
   color: #eaecf0;
@@ -692,6 +698,10 @@ ul.top-nav.about-top-nav {
   letter-spacing: 0.028rem;
 }
 
+.journey h3 .black {
+  color: black;
+}
+
 .journey h3 {
   color: #ffca49;
   font-size: 5.6rem;
@@ -701,12 +711,25 @@ ul.top-nav.about-top-nav {
   margin-bottom: 3.6rem;
   text-align: left;
   margin-left: unset;
-  }
+}
+
   
-  .journey h3 .underline {
-    color: black;
-  }
-  
+
+.process h3 .black {
+  color: black;
+}
+
+.process h3 {
+  color: #ffca49;
+}
+
+.process h3 .black {
+  color: black;
+}
+
+.process h3 {
+  color: #ffca49;
+}
 
 .journey p {
   color: #373737;

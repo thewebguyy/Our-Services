@@ -693,7 +693,7 @@ ul.top-nav.about-top-nav {
 }
 
 .journey h3 {
-  color: #101828;
+  color: #ffca49;
   font-size: 5.6rem;
   font-weight: 600;
   line-height: 4.4rem;
@@ -701,7 +701,12 @@ ul.top-nav.about-top-nav {
   margin-bottom: 3.6rem;
   text-align: left;
   margin-left: unset;
-}
+  }
+  
+  .journey h3 .underline {
+    color: black;
+  }
+  
 
 .journey p {
   color: #373737;

@@ -846,193 +846,192 @@ h3.process {
   }
 
   .tagline {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-
+  
   .hero h1 {
-    font-size: 5rem;
-  }
-
-  .quote {
-    font-size: 2.8rem;
-  }
-
-  .content h2 {
     font-size: 4rem;
   }
-
+  
+  .quote {
+    font-size: 2.6rem;
+  }
+  
+  .content h2 {
+    font-size: 3.6rem;
+  }
+  
   .number {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     margin: 0 auto;
     margin-bottom: 1.8rem;
   }
-
+  
   .content-box h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-align: center;
   }
-
+  
   .content-box p {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
-
+  
   .content h3 {
+    font-size: 3.4rem;
+  }
+  
+  .features h2 {
     font-size: 3.6rem;
   }
-
-  .features h2 {
-    font-size: 4rem;
-  }
-
+  
   .features p {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
-
+  
   .features a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
-
+  
   .services h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
-
+  
   .services p {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
-
+  
   .service h4 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
-
+  
   .service p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-
+  
   .find-us h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
-
+  
   .find-us h4 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
-
+  
   .find-us a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
-
+  
   .contacts h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
-
+  
   .contacts-message {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
-
+  
   .contact-method {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-
+  
   .contact-message {
     font-size: 1.4rem;
   }
-
+  
   .contact-link {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
-
+  
   .bottom-nav li a {
     font-size: 1.4rem;
   }
-
+  
   .bottom-footer p {
     font-size: 1.2rem;
   }
-
+  
   .bottom-footer ul li a {
     font-size: 1.2rem;
   }
-
+  
   .about,
   .about-hero,
   .about-box {
     grid-template-columns: 1fr;
   }
-
+  
   /***** Why La Vetia ******/
-
+  
   .why-hero h1 {
-    font-size: 4rem;
-  }
-
-  .why-quote {
-    font-size: 2.4rem;
-  }
-
-  .why-number {
-    font-size: 3.2rem;
-  }
-
-  .why-content-box h3 {
-    font-size: 3.2rem;
-  }
-
-  h3.why {
-    font-size: 3.2rem;
-  }
-
-  /***** About Us ********/
-
-  .about-hero h5 {
-    font-size: 4rem;
-  }
-
-  .about-hero p {
-    font-size: 2rem;
-  }
-
-  .about-us h3 {
-    font-size: 4rem;
-  }
-
-  .details {
-    font-size: 2.4rem;
-  }
-
-  .name {
-    font-size: 4rem;
-  }
-
-  .position {
-    font-size: 2.4rem;
-  }
-
-  .journey h3 {
-    font-size: 4rem;
-  }
-
-  .journey p {
-    font-size: 2.4rem;
-  }
-
-  /***** Our Services *******/
-
-  .service-hero h5 {
-    font-size: 4rem;
-  }
-
-  .service-hero-text {
-    font-size: 2.4rem;
-  }
-
-  .service-header {
     font-size: 3.6rem;
   }
-
-  .service-text {
-    font-size: 2rem;
+  
+  .why-quote {
+    font-size: 2.2rem;
   }
-}
-
+  
+  .why-number {
+    font-size: 3rem;
+  }
+  
+  .why-content-box h3 {
+    font-size: 3rem;
+  }
+  
+  h3.why {
+    font-size: 3rem;
+  }
+  
+  /***** About Us ********/
+  
+  .about-hero h5 {
+    font-size: 3.6rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.8rem;
+  }
+  
+  .about-us h3 {
+    font-size: 3.6rem;
+  }
+  
+  .details {
+    font-size: 2.2rem;
+  }
+  
+  .name {
+    font-size: 3.6rem;
+  }
+  
+  .position {
+    font-size: 2.2rem;
+  }
+  
+  .journey h3 {
+    font-size: 3.6rem;
+  }
+  
+  .journey p {
+    font-size: 2.2rem;
+  }
+  
+  /***** Our Services *******/
+  
+  .service-hero h5 {
+    font-size: 3.6rem;
+  }
+  
+  .service-hero-text {
+    font-size: 2.2rem;
+  }
+  
+  .service-header {
+    font-size: 3.4rem;
+  }
+  
+  .service-text {
+    font-size: 1.8rem;
+  }
+  
 @media only screen and (max-width: 655px) {
   .top-hero {
     margin-top: 2.5rem;

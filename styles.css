@@ -854,7 +854,7 @@ h3.process {
   }
   
   .quote {
-    font-size: 2.6rem;
+    font-size: 1.8rem;
   }
   
   .content h2 {
@@ -877,11 +877,11 @@ h3.process {
   }
   
   .content h3 {
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
   
   .features h2 {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
   
   .features p {
@@ -893,7 +893,7 @@ h3.process {
   }
   
   .services h2 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   .services p {
@@ -909,7 +909,7 @@ h3.process {
   }
   
   .find-us h2 {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
   
   .find-us h4 {
@@ -921,7 +921,7 @@ h3.process {
   }
   
   .contacts h2 {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
   
   .contacts-message {
@@ -973,11 +973,11 @@ h3.process {
   }
   
   .why-content-box h3 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   h3.why {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   /***** About Us ********/
@@ -1007,7 +1007,7 @@ h3.process {
   }
   
   .journey h3 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   .journey p {
@@ -1017,7 +1017,7 @@ h3.process {
   /***** Our Services *******/
   
   .service-hero h5 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   .service-hero-text {
@@ -1025,7 +1025,7 @@ h3.process {
   }
   
   .service-header {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   .service-text {

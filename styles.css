@@ -961,7 +961,7 @@ h3.process {
   /***** Why La Vetia ******/
   
   .why-hero h1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   
   .why-quote {
@@ -969,7 +969,7 @@ h3.process {
   }
   
   .why-number {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   
   .why-content-box h3 {
@@ -977,29 +977,29 @@ h3.process {
   }
   
   h3.why {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
   
   /***** About Us ********/
   
   .about-hero h5 {
-    font-size: 3rem;
-  }
-  
-  .about-hero p {
     font-size: 1.8rem;
   }
   
+  .about-hero p {
+    font-size: 1.5rem;
+  }
+  
   .about-us h3 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   
   .details {
-    font-size: 2.2rem;
+    font-size: 1.1rem;
   }
   
   .name {
-    font-size: 3.6rem;
+    font-size: 2.3rem;
   }
   
   .position {
@@ -1007,29 +1007,29 @@ h3.process {
   }
   
   .journey h3 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   
   .journey p {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
   }
   
   /***** Our Services *******/
   
   .service-hero h5 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   
   .service-hero-text {
-    font-size: 2.2rem;
+    font-size: 1.1rem;
   }
   
   .service-header {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   
   .service-text {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
   }
   
 @media only screen and (max-width: 655px) {

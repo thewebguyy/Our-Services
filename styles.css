@@ -531,9 +531,9 @@ img.contact-image {
 
 .why-quote {
   color: #eaecf0;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 3.6rem;
-  letter-spacing: 0.032rem;
+  letter-spacing: 0.015rem;
   padding-bottom: 6.4rem;
 }
 
@@ -819,7 +819,7 @@ h3.process {
 @media only screen and (max-width: 880px) {
   .box {
     grid-template-columns: 1fr;
-    row-gap: 7rem;
+    row-gap: 2rem;
   }
 
   .reverse .content-box:nth-child(1) {
@@ -987,7 +987,7 @@ h3.process {
   }
   
   .about-hero p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
   .about-us h3 {
@@ -999,7 +999,7 @@ h3.process {
   }
   
   .name {
-    font-size: 2.3rem;
+    font-size: 3rem;
   }
   
   .position {
@@ -1034,7 +1034,7 @@ h3.process {
   
 @media only screen and (max-width: 655px) {
   .top-hero {
-    margin-top: 2.5rem;
+    margin-top: 2.2rem;
     text-align: center;
   }
 }

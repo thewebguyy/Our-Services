@@ -377,7 +377,7 @@ span a {
 
 .contact-list {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -399,7 +399,7 @@ img.contact-image {
 
 .contact-method {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 3rem;
   letter-spacing: 0.026rem;
@@ -409,8 +409,8 @@ img.contact-image {
 .contact-message {
   color: #373737;
   text-align: center;
-  font-size: 2.4rem;
-  line-height: 2.2rem;
+  font-size: 3rem;
+  line-height: 3rem;
   letter-spacing: 0.026rem;
   margin-bottom: 2rem;
 }
@@ -929,11 +929,11 @@ h3.process {
   }
   
   .contact-method {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   
   .contact-message {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
   }
   
   .contact-link {

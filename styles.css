@@ -318,8 +318,8 @@ span a {
   text-align: center;
   font-size: 3.2rem;
   line-height: 3.8rem;
-  margin-bottom: 4rem;
-  color: #ffca49;
+  margin-bottom: 2rem; /* Adjusted margin to bring the text closer together */
+  color: white; /* Changed text color to white */
 }
 
 .find-us a {
@@ -328,11 +328,21 @@ span a {
   font-family: Futura;
   font-size: 2rem;
   line-height: 2rem;
-  background-color: #ffca49;
-  color: black;
   padding: 1.2rem 2rem;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
   text-decoration: none;
+}
+
+.find-us .learn-more {
+  color: #ffca49; /* Learn more text color */
+  border: 1px solid #ffca49; /* Learn more border color */
+  background-color: black; /* Learn more background color */
+}
+
+.find-us .book-consultation {
+  color: black; /* Book consultation text color */
+  border: 1px solid #ffca49; /* Book consultation border color */
+  background-color: #ffca49; /* Book consultation background color */
 }
 
 .find-us-button {

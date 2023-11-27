@@ -251,7 +251,7 @@ body {
   padding: 80px 0;
   align-items: center;
   text-align: center;
-  background-image: url(/images/why-pattern-2.svg);
+  background-image: url(./images/why-pattern-2.svg);
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -313,6 +313,19 @@ body {
   padding: 80px 0;
 }
 
+.review_box{
+  position: relative;
+}
+.next_prev{
+  position:absolute;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding:0 100px;
+  margin: 11% 0;
+}
+
 .review{
   display: flex;
   align-items: center;
@@ -352,7 +365,7 @@ body {
 .moreblogcontainer{
   padding: 80px 0;
   background-color: black;
-  background-image: url(/images/why-pattern-2.svg);
+  background-image: url(./images/why-pattern-2.svg);
   background-repeat: no-repeat;
 }
 .moreblog_div_1{
@@ -544,6 +557,9 @@ body {
 
 .owl-item{
   height:100vh;
+}
+.review_container .owl-wrapper-outer .owl-wrapper .owl-item {
+  height: auto;
 }
 .owl-theme .owl-controls{
   position: absolute;
@@ -1673,6 +1689,10 @@ h3.process {
   }
   #blognav .div_1{
     flex-direction: column;
+  }
+  .next_prev{
+    margin: 60% 0;
+    padding: 0 10px;
   }
 }
 }

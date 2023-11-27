@@ -251,7 +251,7 @@ body {
   padding: 80px 0;
   align-items: center;
   text-align: center;
-  background-image: url(/images/why-pattern-2.svg);
+  background-image: url(./images/why-pattern-2.svg);
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -352,7 +352,7 @@ body {
 .moreblogcontainer{
   padding: 80px 0;
   background-color: black;
-  background-image: url(/images/why-pattern-2.svg);
+  background-image: url(./images/why-pattern-2.svg);
   background-repeat: no-repeat;
 }
 .moreblog_div_1{
